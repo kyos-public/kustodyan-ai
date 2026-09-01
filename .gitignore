@@ -1,0 +1,15 @@
+node_modules/
+dist/
+npm-debug.log*
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+id_rsa*
+id_ed25519*
+id_ecdsa*
+*.pfx
+*.p12
+.netrc
+*.log
+.DS_Store
