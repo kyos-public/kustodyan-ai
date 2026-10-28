@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kustodyan-ai
+  namespace: kyos
+  description: "AI agent tools for the Kustodyan integration (public)."
+  tags:
+    - typescript
+    - ai
+    - agents
+    - kustodyan
+    - public
+  annotations:
+    github.com/project-slug: kyos-public/kustodyan-ai
+spec:
+  type: service
+  owner: group:kyos/it-team
+  system: data-protection
